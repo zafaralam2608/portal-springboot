@@ -32,4 +32,7 @@ public class DefaultUserService implements UserService {
 		return  users.add(user) ? "User created" : "User creation failed";
 	}
 	
+	public String deleteById(String id) {
+		return  users.remove(findById(id)) ? "User deleted" : "User deletion failed";
+	}
 }
