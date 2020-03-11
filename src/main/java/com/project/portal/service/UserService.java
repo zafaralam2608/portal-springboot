@@ -12,4 +12,6 @@ public interface UserService {
 	
 	String createUser(User user);
 
+	String deleteById(String id);
+
 }
