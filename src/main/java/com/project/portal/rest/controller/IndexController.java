@@ -6,9 +6,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class IndexController {
 
-	@GetMapping("/")
-	public String index() {
-		return "Welcome";
-	}
-	
+    /**
+     * Checks application status.
+     *
+     * @return welcome message
+     */
+    @GetMapping("/")
+    public String index() {
+        return "Welcome";
+    }
+
 }

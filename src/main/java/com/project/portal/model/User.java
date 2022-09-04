@@ -1,26 +1,31 @@
 package com.project.portal.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.AllArgsConstructor ;
 
 @Data
-@NoArgsConstructor
-@AllArgsConstructor 
+@AllArgsConstructor
 public class User {
 
-	private String id;
+    /** The unique id. */
+    private String id;
 
-	private String username;
+    /** The name of user. */
+    private String username;
 
-	private String password;
+    /** The password of user. */
+    private String password;
 
-	private String firstName;
+    /** The first name of user. */
+    private String firstName;
 
-	private String lastName;
+    /** The last name of user. */
+    private String lastName;
 
-	private String email;
+    /** The main id of user. */
+    private String email;
 
-	private String createdDate;
-	
+    /** The creation date of user. */
+    private String createdDate;
+
 }
