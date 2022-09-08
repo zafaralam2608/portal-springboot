@@ -38,7 +38,7 @@ public class UserController {
             return new ResponseEntity<>(
                     "No employees found in database", HttpStatus.NOT_FOUND);
         }
-        return new ResponseEntity<>(list, HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(list, HttpStatus.OK);
     }
 
     /**
