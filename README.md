@@ -10,6 +10,9 @@ Portal application configured with spring-boot
 * [Lombok](https://projectlombok.org/)
 * [Springdoc Open API](https://springdoc.org/)
 
+### Code check and styling
+ [Checkstyle](https://maven.apache.org/plugins/maven-checkstyle-plugin/index.html)
+
 ## Installation
 
 ### Pre-requisites
